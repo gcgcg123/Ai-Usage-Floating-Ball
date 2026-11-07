@@ -1,0 +1,12 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.exe binary
+*.msi binary
+*.rs text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf

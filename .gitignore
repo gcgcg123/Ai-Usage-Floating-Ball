@@ -1,0 +1,38 @@
+# Dependencies and build output
+node_modules/
+dist/
+src-tauri/target/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+
+# Build artifacts
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local working artifacts
+outputs/
+results/
+work/
+coverage/
+playwright-report/
+test-results/
+*.tmp
